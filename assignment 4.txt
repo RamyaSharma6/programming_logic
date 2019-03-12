@@ -1,0 +1,170 @@
+1.Write an algorithm for accepting radius and calculate the area of the circle.
+
+step1  :-start the algorithm
+step2  :-let a be the area of circle,r is the radius
+step3  :-consider pi value as constant i.e;3.14
+step4  :-accept value of r from user
+step5  :-a=pi*r*r
+step6  :-display a
+step7  :-end the algorithm
+
+
+2.Write  a  pseudocode  for  accepting radius  and  calculate the area of the circle.
+
+begin
+read a,r
+accept value of r from user
+constant pi=3.14
+a=pi*r*r
+display a
+end
+
+
+3.Write  an  algorithm  for  accepting a  number  and  display the multiplication table of the given number.
+
+step1  :-start the algorithm
+step2  :-read i=0,n
+step3  :-accept the value of n
+step4  :-for(i=0;i<=10;i++)
+step5  :-then n*i
+step6  :-display result
+step7  :-end the algorithm
+
+
+4.Write a pseudocode for accepting a number and display the multiplication table of the given number.
+
+
+begin
+  read i,n
+  accept values of n
+  for(i=0;i<=10;i++)
+  begin
+    n*i=result
+  end
+  display result
+end
+
+
+5.Write an algorithm for checking whether given number is perfect number or not.
+
+
+step1  :-start the algorithm
+step2  :-read i=1,n,sum=0
+step3  :-accept value of n from user
+step4  :-while(i<n)
+step5  :-if(n%i==0)
+step6  :-then sum=sum+i
+step7  :-increment i
+step8  :-if sum and n are equal,then perfect no.
+step9  :-otherwise not a perfect no.
+step10 :-end the algorithm
+
+
+6.Write a pseudocode for checking whether given number is perfect number or not.
+
+begin
+  read i=1,sum=0,n
+  accept value n 
+  while(i<n)
+  begin
+    if(n%i==0)
+    begin
+      sum=sum+i
+      i++
+    end
+   end
+end
+
+
+7.Write  an  algorithm  for accepting  three  numbers  and display the lowest number out of three numbers.
+
+step1 :-start the algorithm
+step2 :-read a,b,c
+step3 :-accept the values of a,b,c from user
+step4 :-if a<b and a<c then a is lowest else return c
+step5 :-elseif b<c b is min else c is min
+step6 :-display the lowest value
+step7 :-end the algorithm
+
+
+8.Write  a  pseudocode for accepting  three  numbers  and display the lowest number out of three numbers.
+
+begin
+  read a,b,c
+  accept a,b,c
+  if(a<b)
+  begin
+     if(a<c)
+        begin
+           a is min
+        end
+     else
+           c is min
+   end
+  else
+  begin
+     if(b<c)
+        begin
+          b is min
+        end
+      else
+          c is min 
+   end
+end
+
+
+
+9.Write an  algorithm to swap two numbers without using third variable.
+
+step1 :-start the algorithm
+step2 :-read a,b
+step3 :-accept a,b
+step4 :-a=a+b
+        b=a-b
+        a=a-b
+step5 :-display the values of a,b
+step6 :-end the algorithm
+
+
+10.Write a pseudocode to swap two numbers without using third variable.
+
+
+begin
+  read a,b
+  accept a,b
+  a=a+b
+  b=a-b
+  a=a-b
+  display a,b
+end
+
+
+11.Write  an  algorithm for  accepting  a  number  and  check whether number is perfect square or not.
+
+step1 :-start the algorithm
+step2 :-read i,n
+step3 :-accept the values of n
+step4 :-for(a = 0; a <= n; a++)
+step5 :-if (n == a * a)
+step6 :-display perfect square
+step7 :-else not a perfect square
+step8 :-end the algorithm
+ 
+
+12.Write  a  pseudocode for accepting  a  number  and  check whether number is perfect square or not.  
+
+begin
+  read i,n
+  accept n
+  for(a = 0; a <= n; a++)
+    begin
+        if (n == a * a)
+        begin
+            display perfect square
+        end
+        else
+        begin
+           not a perfect square
+        end
+     end
+end

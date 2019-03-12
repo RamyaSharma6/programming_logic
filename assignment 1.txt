@@ -1,0 +1,169 @@
+1)Write a program to print a series with an alteration of addition and subtraction.
+
+#include <stdio.h>
+
+
+void main()
+
+{
+
+int i1,i2,i3,range,i;
+
+printf("enter values of i1 and i2");
+
+scanf("%d%d",&i1,&i2);
+
+printf("enter range");
+
+scanf("%d",&range);
+ 
+for(int i =0;i<=range;i++)
+
+{
+		  
+ if(i%2==0)
+		  
+ {  	
+			
+   i3=i1-i2;				
+	
+ }
+		   
+else
+		  
+ {
+			
+   i3=i1+i2;		
+ }
+		   
+i1=i2;
+		   
+i2=i3;
+		 
+		 
+printf("next term is %d",i3);
+		
+ }
+}
+
+
+
+
+2)Write a program to change the upper-case character to lower case character and vice-versa
+
+
+
+#include <stdio.h>
+
+
+void main()
+
+{
+    
+char ch;
+    
+char uppercase,lowercase;
+
+    
+printf("enter a character:\n");
+    
+scanf("%c",ch);
+    
+   
+ if(ch>=97&&ch<=122)
+    
+  {
+        
+    lowercase=ch-32;
+       
+     printf("result character is %c ",lowercase);
+  
+  } 
+  
+  else if(ch>=65&&ch<=90)
+    
+ {
+       
+    uppercase=ch+32;
+        
+    printf("result character is %c ",ch);
+        
+ 
+   }
+    
+   else 
+    
+   {
+        
+    printf("incorrect value");
+  
+  }
+   
+ 
+}
+
+
+
+
+3)Write a program to print the following pattern
+        S
+        Sc
+        Sch
+        Scho
+        Schoo
+        School
+
+#include <stdio.h>
+void main()
+ {
+    int i,j;
+    char str[6]="school";
+    char *ptr= NULL;
+    ptr = &str[6];
+    for(i=0;i<6;i++){
+        for(j=0;j<=i;j++){
+            printf("%c",str[j]);
+        }
+        printf("\n");
+}
+ }
+
+4)print mirror alphabets
+
+#include <stdio.h> 
+#include<ctype.h>
+void main() 
+void reciprcalString(char str()) 
+{ 
+	char ch; 
+	for (int i = 0; i < str.length(); i++) 
+         { 
+           if (isupper(word[i])) //isupper takes a single argument in the form of an integer and returns a value of type int.
+
+Even though, isupper() takes integer as an argument, character is passed to the function. Internally, the character is converted to its ASCII for the check.
+            { 
+			ch = 'Z' - word[i] + 'A'; 
+			printf("%c",ch); 
+		} 
+
+		else if (islower(word[i])) { 
+			ch = 'z' - word[i] + 'a'; 
+			printf(%c",ch); 
+		} 
+
+		else { 
+			printf("invalid"); 
+		} 
+	} 
+}
+  void main() 
+  { 
+	string str = "I am a Indian"; 
+	printf("the result is:",str);
+	reciprcalString(str); 
+	 
+  } 
+
+    
+    
+ 

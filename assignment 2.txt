@@ -1,0 +1,108 @@
+1)replace module in any programming language without using predefined replace module
+
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+char str[40];
+int i;
+char a,b;
+printf("enter the string\n");
+gets(str);
+printf("enter the character that needs to be replace:\n");
+scanf("%c",&a);
+printf("enter the new character:\n");
+scanf("%c",&b);
+getchar();
+for(i=0;i<strlen(str);i++)
+{
+if(str[i]==a)
+{ 
+  str[i]=b;//replacing letter
+}
+}
+printf("final string after replacement is %s:",str);
+}
+
+
+2)find out quotient and remainder without using division sign
+
+ 
+#include<stdio.h>
+void main()
+{
+int a,b;
+int count=0;
+printf("enter the values of a and b\n");
+scanf("%d,%d",&a,&b);
+while(a>=b)
+{ 
+  a=a-b;
+  count++;
+}
+printf("quotient of given no. is %d",count);
+printf("remainder of given no.is %d",a);
+}
+
+3)create substring function without using predefined function of the same
+
+#include <stdio.h>
+int main()
+{
+   char str[50], substr[50];
+   int position, len, c = 0;
+   printf("enter a string\n");
+   gets(str);
+   printf("Enter the position and length of substring\n");
+   scanf("%d%d", &position, &len);
+   while (c < len) {
+      substr[c] = str[position+c-1];
+      c++;
+   }
+   substr[c] = '\0';
+ 
+   printf("Required substring is %s \n", substr);
+ 
+   return 0;
+}
+
+
+4)create a recursive function for fibonacci series
+
+#include <stdio.h>
+int fib(int);
+int main()
+{
+    int num,i=1;
+    int result;
+  printf("no.of terms in series\n");
+  scanf("%d",&num);
+  result=fib(i);
+        while(i<=num)
+        {
+          printf("%d",num);
+	}
+   i++; 
+}
+int fib(int num)
+{
+
+ if (num <= 1) 
+        return num; 
+else
+    return fib(num-1) + fib(num-2); 
+} 
+5)create a program to sum no.s belonging to a given range
+
+#include<stdio.h>
+void main()
+{
+int i,n,sum=0;
+printf("enter maximum limit:\n");
+scanf("%d",&n);
+for(i=0;i<=n;i++)
+{
+sum=sum+i;
+}
+printf("%d",sum);
+}

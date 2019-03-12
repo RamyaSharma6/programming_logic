@@ -1,0 +1,112 @@
+1.Write an algorithm for accepting two numbers, divide the first number by second and display their quotient
+
+Step1 :- Start the algorithm.
+Step2 :- accept the variables A,B from user
+step3 :- let C be the result
+Step4 :- c=A/B.
+Step5 :- Display C.
+Step6 :- end the algorithm.
+
+
+2.Write an algorithm for accepting distance in kilometers, convert it into meters and display the result.
+
+Step1 :- Start the algorithm.
+Step2 :- Let A,B the variables.
+step3 :- Display "Enter the distance in kilometers".
+step4 :- accept the distance entered by the user as A.
+Step5 :- B= A*1000.
+Step6 :- Display B.
+Step7 :- end the algorithm.
+
+
+3.Write an algorithm for accepting five numbers and display the sum and average of the numbers.
+
+
+Step1  :- Start the algorithm.
+Step2  :- Let A,B,C,D,E,F,G variables.
+step3  :- Display "Enter the numbers".
+step4  :- Accept the values of A,B,C,D,E.
+step5  :- F=A+B+C+D+E.
+step6  :- G= F/5.
+Step7  :- Display Sum of no.s i.e,F.
+Step8  :- Display Average of no.s G.
+Step9  :- end the algorithm.
+
+
+4.Write an algorithm for accepting  a number and display the whether it is odd or even.
+
+
+
+
+Step1  :-start the algorithm
+step2  :-accept a no.from user
+step3  :-if(num%2) is 0 then the no.is even
+step4  :-otherwise the no. is odd
+step5  :-display the result
+step6  :-end the algorithm
+
+
+
+5.Write an algorithm for accepting  two numbers and display  the highest number among two.
+
+
+Step1  :- Start the algorithm.
+Step2  :- Let A,B,C Variables.
+Step3  :- Display "Enter the numbers".
+Step4  :- Accept A.
+Step5  :- Accept B.
+Step6  :- Compare C= A<B.
+Step7  :- if C=True.
+          Display  B is larger.
+Step8  :- Else Display  A is larger.
+Step9  :- end the algorithm.
+
+
+
+6.Write an algorithm for calculating the area of rectangle and square separately.
+
+
+Step1  :- Start the algorithm.
+Step2  :- Let A,B Variables.
+Step3  :- Display "Enter the side of the Square.
+Step4  :- Accept the side entered by the user.
+Step5  :- B=A*A.
+Step6  :- Display B.
+Step7  :- end the algorithm.
+
+
+Step1  :- Start the algorithm.
+Step2  :- Let l,b,a Variables.
+Step3  :- Accept the values of l and b entered by the user.
+Step4  :- a=l*b
+Step5  :- Display a.
+Step6  :- end the algorithm.
+
+
+
+7.Write an algorithm for accepting the distance and speed values for a particular journey, calculate the time taken for  the journey and display the same.
+
+
+step1  :- Start the algorithm.
+Step2  :- Let s,d,t Variables.
+Step3  :- Display "Enter the time taken for journey."
+Step4  :- Accept the values of d and s.
+Step5  :- t=d/s
+Step6  :- Display the value of t.
+Step7  :- end the algorithm.
+
+
+8.Write an algorithm for accepting third character of the given string and then display whether it is vowel or constant.
+
+
+step1  :- Start the algorithm.
+Step2  :- accept variable from user(X)
+Step3  :-if(X==A||X==E||X==I||X==O||X==U||X==a||X==e||X==i||X==o||X==u)
+Step4  :-the display entered character is vowel
+Step5  :- otherwise display the character is consonant
+Step6  :- end the algorithm.
+
+
+
+
+

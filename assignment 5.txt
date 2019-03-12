@@ -1,0 +1,211 @@
+1.Write a pseudocode for displaying the largest number of the given array {7,8,5,6}.
+
+Begin
+read a[],i,max,n;
+enter the values in the array
+accept the size of array n
+consider a[0]=max
+for(i=1;i<n;i++)
+begin
+ if(a[i]>max)
+ begin
+  max=a[i];
+ end
+ print max +"is the largest no."
+ end
+
+
+2.Write  a  pseudocode  to  calculate  the  average  of  the elements in the given array of size 10.
+
+begin
+read a[10],sum=0,i;
+float avg=0;
+accept the values of array from user
+for(i=0;i<9;i++)
+begin
+sum=sum+a[i];
+end
+avg=sum/10;
+end
+
+3.Write a pseudocode to display the sum of two matrix having size 3.
+
+begin
+read a[5][5],b[5][5],i,j,r1,r2,c1,c2,s;um
+accept the no. of rows of matrix a:r1
+accept the no.of columns of matrix a:c1
+accept the no.of rows of matrix b:r2
+accept the no.of columns of matrix b:c2
+accept the values of matrix a.........
+for(i=0;i<r1;i++)
+begin
+ for(j=0;j<c1;j++)
+ begin
+  print the values of the matrix a[i][j]
+ end
+end
+accept the values of matrix b.........
+for(i=0;i<r2;i++)
+begin
+ for(j=0;j<c2;j++)
+ begin
+  print the values of the matrix b[i][j]
+ end
+end
+ addition of 2 matrices.......
+for(i=0;i<r1;i++)
+begin
+ for(j=0;j<c1;j++)
+  begin
+   sum[i][j]=a[i][j]+b[i][j];
+   print sum[i][j];
+  end
+printf("\n")
+end
+
+4.Write a pseudocode to arrange the elements of array in ascending order. {4,3,8,7,6,1,2,9,4}
+
+begin
+read i,a[20]={4,3,8,7,6,1,2,9,4},n,temp;
+for(i=0;i<n-1;i++)
+ begin
+  if(a[i]>a[i+1]
+  begin
+   temp=a[i],
+   a[i]=a[i+1];
+   a[i+1]=temp;
+  end
+ print ascending order of array a[i]
+end
+
+
+5.Write  a  pseudocode  to display  all  the  numbers  in  given array greater  than  the  average  of  numbers  given  in  an array of size 10.
+
+begin
+read a[10],sum=0,i;
+float avg=0;
+accept the values of array from user
+for(i=0;i<9;i++)
+begin
+sum=sum+a[i];
+end
+avg=sum/10;
+
+for(i=0;i<9;i++)
+begin
+ if(a[i]>avg)
+ begin
+ print a[i]
+ end
+end
+end
+
+
+6.Write    a    pseudocode    to concatenate    two    arrays containing elements in ascending order to create a new array containing elements in ascending order.
+
+begin
+ read numeric a[4]={1,2,3,4};
+ numeric int b[4]={5,6,7,8};
+ numeric int concatarr[8];
+ int i=0,j=0,k=0;
+ while(i<4 && j<4)
+ begin
+  if(a[i]<b[j])
+   begin
+     concatarr[k]=a[i];
+     i++;
+   end
+  else
+   begin
+     concatarr[k]=b[j];
+     j++;
+   end
+  k++;
+ end
+while(i<4)
+begin
+ concatarr[k]=a[i];
+ i++;
+ k++;
+end
+while(j<4)
+begin
+ concatarr[k]=b[j];
+ j++;
+ k++;
+end
+end
+
+ 
+7.Write a pseudocode to accept two numbers from a user and then, add and subtract these numbers with the help of two procedures, Add and Subtract. Define the Add and Subtract    procedures    to    accomplish    the    required functionality.
+
+procedure add(int a,int b)
+procedure subtract(int a,int b)
+begin
+ read a,b;
+ accept the values of a and b from user
+ call add;
+ call subtract;
+end
+
+procedure add(int a,int b)
+begin
+ read c;
+ c=a+b;
+ display the result c;
+end
+
+procedure subtract(int a,int b)
+begin
+ read d;
+ d=a-b;
+ display the result d;
+end
+
+
+8.Write a pseudocode that contains two modules, Accept and FindSmallest, to accept three numbers from the user and to display the smallest number.
+
+
+procedure accept(int a,int b,int c)
+procedure findsmallest(int a,int b,intc)
+begin
+ read a,b,c;
+ call accept;
+ call findsmallest;
+end
+
+procedure accept(int a,int b,intc);
+begin
+ accept values from the user;
+end
+
+procedure findsmallest(int a,int b,int c)
+begin
+ if((a<b)&&(a<c))
+ begin 
+   display a is smallest
+ end
+ elseif(b<c)
+ begin
+   display b is smallest
+ end
+ else 
+ begin
+  display c is smallest
+ end
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
